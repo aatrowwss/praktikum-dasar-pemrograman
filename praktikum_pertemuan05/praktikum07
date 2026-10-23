@@ -1,0 +1,22 @@
+def hitung_subtotal(harga, jumlah):
+    subtotal = harga * jumlah
+    print(f"Subtotal: {subtotal}")
+    return subtotal
+
+def hitung_diskon(subtotal):
+    if subtotal <= 100000:
+        return subtotal * 0.1
+    else:
+        return 0
+
+def tampilkan_struk(nama_barang, subtotal, diskon):
+    total = subtotal - diskon
+    print(f"Nama Barang: {nama_barang}")
+    print(f"Subtotal: {subtotal}")
+    print(f"Diskon: {diskon}")
+    print(f"Total: {total}")
+
+Subtotal = hitung_subtotal(10000, 2)
+Diskon = hitung_diskon(Subtotal)
+tampilkan_struk("Cimory Yoghurt", Subtotal, Diskon)
+

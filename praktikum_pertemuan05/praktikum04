@@ -1,0 +1,5 @@
+def buat_biodata(nama, umur, jurusan):
+    print(f"{nama}, {umur} tahun, jurusan {jurusan}")
+
+buat_biodata("Aisah Tri Absari", 18, "Sistem Informasi")
+buat_biodata(jurusan="Teknik Informatika", nama="Intan Nuraeni", umur=19)

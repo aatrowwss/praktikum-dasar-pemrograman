@@ -1,0 +1,4 @@
+# Konversi Fahrenheit ke Celcius
+fahrenheit = int(input("Masukkan suhu Fahrenheit: "))
+celcius = (fahrenheit - 32) * 5/9
+print("Suhu dalam Celcius:", celcius)

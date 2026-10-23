@@ -1,0 +1,13 @@
+def tampilkan_identitas(nama, nim, program_studi):
+    print(f"{nama}, {nim}, {program_studi}")
+
+tampilkan_identitas("Aisah Tri Absari", "6726600032", "Sistem Informasi")
+tampilkan_identitas("Intan Nuraeni", "6726600033", "Teknik Informatika")
+
+def tampilkan_identitas(nama, nim, program_studi):
+    print(f"Nama : {nama}")
+    print(f"NIM : {nim}")
+    print(f"Program Studi : {program_studi}")
+
+tampilkan_identitas("Aisah Tri Absari", "6726600032", "Sistem Informasi")
+tampilkan_identitas("Intan Nuraeni", "6726600033", "Teknik Informatika")
